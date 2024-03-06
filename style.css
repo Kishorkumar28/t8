@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a39831;
+}
+.header {
+    background-color: #52666a;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px; /* Padding on the left side */
+    padding-right: 30px; /* Padding on the right side */
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.search-bar {
+    display: flex;
+    align-items:start;
+    justify-content: flex-start;
+    margin: 20px auto;
+    padding:15px 100px;
+    color: white;
+    background-color: rgb(49, 45, 45);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+.sidebar {
+
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 200px 70px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.options {
+
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.option {
+    flex: 1;
+    background-color: #444;
+    color: white;
+    padding: 100px 120px;
+    text-align: center;
+    border-radius:15px ;
+    margin-left: 50px;
+}
+.info-bar {
+    background-color: #444;
+    padding: 25px 150px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width:500px;
+    margin: -70px auto 0 550px;
+    border-radius: 15px;
+}
+.icon{
+    position:absolute;
+    left:0;
+    margin-left: 1px;
+    
+    
+}
+.github{
+    position:relative;
+    
+    display: inline-block;
+}
+.parent {
+    white-space: nowrap; /* Prevent line breaks */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.sidebar,
+.option {
+    display: inline-block; /* Display elements on the same line */
+    /* Add other styling properties as needed */
+}
